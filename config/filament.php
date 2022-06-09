@@ -144,6 +144,7 @@ return [
         'register' => [
             Widgets\AccountWidget::class,
             Widgets\FilamentInfoWidget::class,
+            App\Filament\Widgets\CalendarWidget::class,
         ],
     ],
 

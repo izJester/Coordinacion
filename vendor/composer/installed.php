@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'b98c31c7d7c012f00a79f75de7270522486cb03c',
+        'reference' => '5f8d6d2f033b9cd01294595148c0e2bf5b0f5141',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -568,7 +568,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'b98c31c7d7c012f00a79f75de7270522486cb03c',
+            'reference' => '5f8d6d2f033b9cd01294595148c0e2bf5b0f5141',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -1039,6 +1039,15 @@
             'replaced' => array(
                 0 => '4.3.1',
             ),
+        ),
+        'saade/filament-fullcalendar' => array(
+            'pretty_version' => 'v0.2.1',
+            'version' => '0.2.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../saade/filament-fullcalendar',
+            'aliases' => array(),
+            'reference' => '89dc58fba91b67a21995873e24f6d3061841135d',
+            'dev_requirement' => false,
         ),
         'sebastian/cli-parser' => array(
             'pretty_version' => '1.0.1',
